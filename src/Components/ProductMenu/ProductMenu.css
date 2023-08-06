@@ -1,0 +1,30 @@
+.text-center {
+    text-align: center;
+    background: #212121;
+    /*! margin: ; */
+    margin: 0px;
+    padding: 10px;
+    color: white;
+}
+.productList{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+   
+}
+
+.product-price {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;       
+    width: 86%;
+    margin-inline: auto;
+}
+.product-price button{
+        border: none;
+        padding: 5px 20px;
+        background: #1380aa;
+        color: white;
+        font-size: 15px;
+       
+}

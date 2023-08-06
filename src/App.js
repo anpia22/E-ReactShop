@@ -1,10 +1,14 @@
+import React from 'react';
 import Header from './Components/Header/Header';
+import { CartProvider } from './Components/Cart/CartContext/CartContext';
+import ProductMenu from './Components/ProductMenu/ProductMenu';
 
 function App() {
   return (
-    <div >
-      <Header/>
-    </div>
+    <CartProvider>
+        <Header />
+        <ProductMenu />
+    </CartProvider>
   );
 }
 

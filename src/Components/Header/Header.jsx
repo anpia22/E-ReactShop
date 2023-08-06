@@ -1,11 +1,13 @@
 import Cart from "../Cart/Cart";
+import { useCart } from "../Cart/CartContext/CartContext";
 import './Header.css'
 const Header = () => {
+    const { cart } = useCart();
     return (
         <div className="header">
-            <h1 className="text-center">E-ReactShop</h1>
+            <h1 >E-ReactShop</h1>
             <div>
-                <Cart></Cart></div>
+                <Cart /></div>
         </div>
     );
 }
