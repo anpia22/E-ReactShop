@@ -25,7 +25,7 @@ import { useCart } from './CartContext/CartContext';
 
 function Cart() {
     const [cartOpen, setCartOpen] = useState(false);
-    const { cart, removeFromCart } = useCart();
+    const { cart, removeFromCart, totalAmount } = useCart();
 
     const toggleCart = () => {
         setCartOpen(!cartOpen);
@@ -67,7 +67,7 @@ function Cart() {
                     ))}
                     <div className='totalAmount'>
                         <h4>Total Amount</h4>
-                        <span>$234</span>
+                        <span>{totalAmount.toFixed(2)}</span>
                     </div>
                     <div className='checkOut'>
                         {/* <button type="submit"><Link to="/checkout">Checkout Now!</Link></button> */}
