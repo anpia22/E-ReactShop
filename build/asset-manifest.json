@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/E-ReactShop/static/css/main.d9360da1.css",
+    "main.js": "/E-ReactShop/static/js/main.b6270565.js",
+    "static/js/787.01d29769.chunk.js": "/E-ReactShop/static/js/787.01d29769.chunk.js",
+    "index.html": "/E-ReactShop/index.html",
+    "main.d9360da1.css.map": "/E-ReactShop/static/css/main.d9360da1.css.map",
+    "main.b6270565.js.map": "/E-ReactShop/static/js/main.b6270565.js.map",
+    "787.01d29769.chunk.js.map": "/E-ReactShop/static/js/787.01d29769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9360da1.css",
+    "static/js/main.b6270565.js"
+  ]
+}
